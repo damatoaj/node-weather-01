@@ -12,7 +12,7 @@ const forecast = (long, lat, callback) => {
                 // temp:body.current.temperature,
                 // feelsLike:body.current.feelslike,
                 // weatherDesc:body.current.weather_descriptions[0],
-                ('It is ' + body.current.temperature + ' outside and feels like ' + body.current.feelslike + " and the weather is " + body.current.weather_descriptions[0].toLowerCase())
+                ('It is ' + body.current.temperature + ' outside and feels like ' + body.current.feelslike + " and the weather is " + body.current.weather_descriptions[0].toLowerCase() + ". The wind speed is " + body.current.wind_speed + 'mph.')
             )
             
         }
